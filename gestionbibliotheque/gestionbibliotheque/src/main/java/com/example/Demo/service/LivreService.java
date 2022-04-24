@@ -31,7 +31,7 @@ public class LivreService {
         livreRepos.save(l);
     }
 
-    public void deleteBook(Livre l){
-        livreRepos.delete(l);
+    public void deleteBookById(Long id){
+        livreRepos.deleteById(id);
     }
 }
